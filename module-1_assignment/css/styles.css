@@ -34,9 +34,9 @@ div.sub-heading{
 	border:2px solid black;
 	padding:2px;
 	text-align: center;
-	margin:2px;
-	left: 78%;
-	top:10%
+	
+	left: 80%;
+	
 
 }
 
@@ -44,7 +44,7 @@ div.sub-heading{
 		
 		border : 2px solid blue;
 		margin:6px ;
-		padding: 10px;
+		//padding: 10px;
 		background: #5EDFF8;
 		
 	}
