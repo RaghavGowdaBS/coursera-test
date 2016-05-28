@@ -69,11 +69,14 @@ div.sub-heading{
 	}
 }
 	
+@media(max-width: 767px) {
+	.col-sm-11{
+		width:91.66%;
+		
+		float:left;
+	}
 
-
-	
 }
 
-section.saturn{
-	background:url("");
+	
 }
