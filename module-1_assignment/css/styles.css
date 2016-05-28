@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+	font-family: "Helvitica";
+}
+
+p {
+	font-size: 16px;
+	color:#07213A;
+	padding: 5px;
+	
+}
+h1{
+	text-align: center;
+	color:#581845;
+}
+.container{
+	
+	width: 100%
+	
+}
+
+.saturn{
+	background: #FACC2E;
+}
+.jupiter{
+	background:#5EE452;
+}
+.mars{
+	background:#F46E52;
+}
+div.sub-heading{
+	position: relative;
+	width:20%;
+	border:2px solid black;
+	padding:2px;
+	text-align: center;
+	margin:2px;
+	left: 78%;
+	top:10%
+
+}
+
+.container > section{
+		
+		border : 2px solid blue;
+		margin:6px ;
+		padding: 10px;
+		background: #5EDFF8;
+		
+	}
+@media(min-width: 992px) {
+	.col-lg-4{
+		width:32%;
+		
+		float:left;
+	}
+	
+}
+@media(min-width: 768px) and (max-width:991px ) {
+	.col-md-6{
+		width:48%;
+		
+		float:left;
+	}
+
+	
+	.col-md-12{
+		width:97%;
+		
+		float:left;
+	}
+}
+	
+
+
+	
+}
+
+section.saturn{
+	background:url("");
+}
