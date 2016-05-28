@@ -6,7 +6,7 @@
 p {
 	font-size: 16px;
 	color:#07213A;
-	padding: 5px;
+	padding: 10px;
 	
 }
 h1{
@@ -34,7 +34,6 @@ div.sub-heading{
 	border:2px solid black;
 	padding:2px;
 	text-align: center;
-	
 	left: 80%;
 	
 
@@ -44,7 +43,6 @@ div.sub-heading{
 		
 		border : 2px solid blue;
 		margin:6px ;
-		//padding: 10px;
 		background: #5EDFF8;
 		
 	}
