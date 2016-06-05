@@ -1,0 +1,104 @@
+
+
+
+.navbar-brand{
+
+	
+	background-image: url('../image/food_md.png');
+	width:150px;
+	height:150px;
+}
+.navbar>.container .navbar-brand{
+	margin-left:50px;
+}
+.navbar{
+	background: #FFC300;
+	border-radius: 0;
+	margin:0px;
+}
+
+.brand-name{
+	font-family: 'Oleo Script', cursive;
+	clear:all;
+	font-size: 3em;
+	color: #0C8343;
+	margin-left:50px;
+}
+
+.main-content{
+	background:#7E0B5C;
+	margin-top: -20px;
+}
+
+section{
+	background: #EF95D4;
+	padding :10px;
+	border:10px solid #7E0B5C;
+
+	
+}
+
+ p{
+	margin-top: 10px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.footer{
+	background-color:#FFC300;
+}
+.main-content .header{
+	color:white;
+	padding-top: 15px;
+
+}
+
+@media(min-width: 769px) and (max-width:991px ){
+.navbar-brand{
+	background-image: url('../image/food_sm.png');
+	width:100px;
+	height:100px;
+}
+.brand-name{
+	margin-left:50px;
+	font-size: 2em;
+}
+
+}
+
+@media(max-width: 768px){
+	.navbar-brand{
+	background-image: none;
+	width:0px;
+	height: 0px;
+}
+}
+
+.navbar-toggle{
+	background-color: #7E0B5C;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:white;
+}
+
+.navbar-collapse{
+	background: #FFC300;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	height: 175px;
+	
+}
+
+li>a {
+	color:#7E0B5C;
+}
+
+
+
+.style-font{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	background-color: #FFC300;
+	font-size: 2em;
+}
